@@ -17,7 +17,8 @@
 - open workspace in vsCode
   - navigate to PROPER DIRECTORY
 - connect remote repo: git clone
-  - navigate to PROPER DIRECTORY
+  - navigate to PROPER DIRECTORY, i.e., cd into the new dir/ git clone just created
+  - for fun: git pull 
 - install express or check `npm info express`
 - initialize node project: `npm init -y`
 - check over package.json 
