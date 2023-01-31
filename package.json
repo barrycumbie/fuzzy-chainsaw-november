@@ -1,14 +1,16 @@
 {
   "dependencies": {
     "ejs": "^3.1.8",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
   },
   "name": "fuzzy-chainsaw-november",
   "description": "- download & install node \r - check it: `node -v`\r - turn it off and on...might need to kill terminal/vsCode and restart for `node -v` to register\r - (assumes bash/gitbash, vsCode)",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
