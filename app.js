@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3005;
 app.set('view engine', 'ejs');
 
 
-let myName = 'Nathan'; 
+let myName = 'Billy'; 
 
 app.get('/', async (req, res) => {
 //   res.send('<!DOCTYPE html><html lang="en"><h1>Hello World, is it November?</h1>')
