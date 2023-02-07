@@ -1,13 +1,13 @@
 const express = require('express')
 const app = express()
-const PORT = process.env.PORT || 3005;  
+const PORT = process.env.PORT || 3000;  
 
 // set the view engine to ejs
 
 app.set('view engine', 'ejs');
 
 
-let myName = 'Nathan'; 
+let myName = 'HauHuynh'; 
 
 app.get('/', async (req, res) => {
 //   res.send('<!DOCTYPE html><html lang="en"><h1>Hello World, is it November?</h1>')
